@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.13.35931.197
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MultiTextCopyPaste", "MultiTextCopyPaste.csproj", "{5AA7E0BF-FF8F-4F26-AFE1-E339240D0076}"
+EndProject
+Project("{54435603-DBB4-11D2-8724-00A0C9A8B90C}") = "Setup_MultiTextCopyPaste", "..\Setup_MultiTextCopyPaste\Setup_MultiTextCopyPaste.vdproj", "{1BC97AAB-CBB9-3995-DAAE-452399EC1366}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{5AA7E0BF-FF8F-4F26-AFE1-E339240D0076}.Debug|Any CPU.ActiveCfg = Release|Any CPU
+		{5AA7E0BF-FF8F-4F26-AFE1-E339240D0076}.Debug|Any CPU.Build.0 = Release|Any CPU
+		{5AA7E0BF-FF8F-4F26-AFE1-E339240D0076}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5AA7E0BF-FF8F-4F26-AFE1-E339240D0076}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1BC97AAB-CBB9-3995-DAAE-452399EC1366}.Debug|Any CPU.ActiveCfg = Debug
+		{1BC97AAB-CBB9-3995-DAAE-452399EC1366}.Debug|Any CPU.Build.0 = Debug
+		{1BC97AAB-CBB9-3995-DAAE-452399EC1366}.Release|Any CPU.ActiveCfg = Release
+		{1BC97AAB-CBB9-3995-DAAE-452399EC1366}.Release|Any CPU.Build.0 = Release
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {B52A572D-4B18-499A-AF5A-6409E40F1FDF}
+	EndGlobalSection
+EndGlobal
