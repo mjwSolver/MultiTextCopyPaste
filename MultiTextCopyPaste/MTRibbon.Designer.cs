@@ -65,6 +65,7 @@
             this.btnMultiCopy.ImageName = "Copy_Icon";
             this.btnMultiCopy.Label = "MultiCopy";
             this.btnMultiCopy.Name = "btnMultiCopy";
+            this.btnMultiCopy.ScreenTip = "Select multiple textboxes for copying";
             this.btnMultiCopy.ShowImage = true;
             this.btnMultiCopy.Click += new Microsoft.Office.Tools.Ribbon.RibbonControlEventHandler(this.btnMultiCopy_Click);
             // 
@@ -73,6 +74,7 @@
             this.btnMultiPaste.Image = ((System.Drawing.Image)(resources.GetObject("btnMultiPaste.Image")));
             this.btnMultiPaste.Label = "MultiPaste";
             this.btnMultiPaste.Name = "btnMultiPaste";
+            this.btnMultiPaste.ScreenTip = "In the same order as copying, select textboxes and paste";
             this.btnMultiPaste.ShowImage = true;
             this.btnMultiPaste.Click += new Microsoft.Office.Tools.Ribbon.RibbonControlEventHandler(this.btnMultiPaste_Click);
             // 
