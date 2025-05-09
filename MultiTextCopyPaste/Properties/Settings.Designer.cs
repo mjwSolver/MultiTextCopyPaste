@@ -8,7 +8,7 @@
 // </auto-generated>
 //------------------------------------------------------------------------------
 
-namespace MultiTextCopPaste1.Properties {
+namespace MultiTextCopyPaste.Properties {
     
     
     [global::System.Runtime.CompilerServices.CompilerGeneratedAttribute()]

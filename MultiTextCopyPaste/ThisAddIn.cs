@@ -5,7 +5,7 @@ using System.Text;
 using System.Xml.Linq;
 using System.Runtime.InteropServices;
 
-namespace MultiTextCopPaste1
+namespace MultiTextCopyPaste
 {
 
     public partial class ThisAddIn
