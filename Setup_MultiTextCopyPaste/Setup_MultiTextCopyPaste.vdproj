@@ -16,12 +16,6 @@
     {
         "Entry"
         {
-        "MsmKey" = "8:_0F93F75B10C44876A3DC2BABC7B16CD5"
-        "OwnerKey" = "8:_UNDEFINED"
-        "MsmSig" = "8:_UNDEFINED"
-        }
-        "Entry"
-        {
         "MsmKey" = "8:_22A9B3141FC84ADC89B76110521DF6DE"
         "OwnerKey" = "8:_B33784F8C4A3080DED6E1B37FABD4211"
         "MsmSig" = "8:_UNDEFINED"
@@ -29,13 +23,13 @@
         "Entry"
         {
         "MsmKey" = "8:_22A9B3141FC84ADC89B76110521DF6DE"
-        "OwnerKey" = "8:_0F93F75B10C44876A3DC2BABC7B16CD5"
+        "OwnerKey" = "8:_D9EC1A12F7A64C8498BB94ED7A896C30"
         "MsmSig" = "8:_UNDEFINED"
         }
         "Entry"
         {
         "MsmKey" = "8:_704020E80E2D921B1C5B6B0EC8A5ED71"
-        "OwnerKey" = "8:_0F93F75B10C44876A3DC2BABC7B16CD5"
+        "OwnerKey" = "8:_D9EC1A12F7A64C8498BB94ED7A896C30"
         "MsmSig" = "8:_UNDEFINED"
         }
         "Entry"
@@ -47,25 +41,31 @@
         "Entry"
         {
         "MsmKey" = "8:_8EEBF6FCC77A46738AA56479432CE97E"
-        "OwnerKey" = "8:_0F93F75B10C44876A3DC2BABC7B16CD5"
+        "OwnerKey" = "8:_D9EC1A12F7A64C8498BB94ED7A896C30"
         "MsmSig" = "8:_UNDEFINED"
         }
         "Entry"
         {
         "MsmKey" = "8:_B33784F8C4A3080DED6E1B37FABD4211"
-        "OwnerKey" = "8:_0F93F75B10C44876A3DC2BABC7B16CD5"
+        "OwnerKey" = "8:_D9EC1A12F7A64C8498BB94ED7A896C30"
         "MsmSig" = "8:_UNDEFINED"
         }
         "Entry"
         {
         "MsmKey" = "8:_B97A0E823F5D0FA3FF0556F33C22BD0D"
-        "OwnerKey" = "8:_0F93F75B10C44876A3DC2BABC7B16CD5"
+        "OwnerKey" = "8:_D9EC1A12F7A64C8498BB94ED7A896C30"
+        "MsmSig" = "8:_UNDEFINED"
+        }
+        "Entry"
+        {
+        "MsmKey" = "8:_D9EC1A12F7A64C8498BB94ED7A896C30"
+        "OwnerKey" = "8:_UNDEFINED"
         "MsmSig" = "8:_UNDEFINED"
         }
         "Entry"
         {
         "MsmKey" = "8:_FF27888629A40C9AA533FD011254C9E5"
-        "OwnerKey" = "8:_0F93F75B10C44876A3DC2BABC7B16CD5"
+        "OwnerKey" = "8:_D9EC1A12F7A64C8498BB94ED7A896C30"
         "MsmSig" = "8:_UNDEFINED"
         }
         "Entry"
@@ -77,7 +77,7 @@
         "Entry"
         {
         "MsmKey" = "8:_UNDEFINED"
-        "OwnerKey" = "8:_0F93F75B10C44876A3DC2BABC7B16CD5"
+        "OwnerKey" = "8:_D9EC1A12F7A64C8498BB94ED7A896C30"
         "MsmSig" = "8:_UNDEFINED"
         }
         "Entry"
@@ -448,7 +448,7 @@
         "Name" = "8:Microsoft Visual Studio"
         "ProductName" = "8:Setup_MultiTextCopyPaste"
         "ProductCode" = "8:{0B923145-CED9-4707-A140-FA2610C95622}"
-        "PackageCode" = "8:{FBE06064-2ABB-472B-B4E7-33C4BF09608F}"
+        "PackageCode" = "8:{D7346D84-FBB8-401B-A272-F29238456179}"
         "UpgradeCode" = "8:{3CBB6175-C04C-460F-BF05-39B9FBEDBB83}"
         "AspNetVersion" = "8:"
         "RestartWWWService" = "11:FALSE"
@@ -456,7 +456,7 @@
         "DetectNewerInstalledVersion" = "11:TRUE"
         "InstallAllUsers" = "11:FALSE"
         "ProductVersion" = "8:1.0.1"
-        "Manufacturer" = "8:Default Company Name"
+        "Manufacturer" = "8:mjwSolver"
         "ARPHELPTELEPHONE" = "8:"
         "ARPHELPLINK" = "8:"
         "Title" = "8:Setup_MultiTextCopyPaste"
@@ -532,6 +532,100 @@
                             "Transitive" = "11:FALSE"
                                 "Keys"
                                 {
+                                }
+                                "Values"
+                                {
+                                }
+                            }
+                            "{60EA8692-D2D5-43EB-80DC-7906BF13D6EF}:_F468D95F63794510AC2FB7EB2E388836"
+                            {
+                            "Name" = "8:Microsoft"
+                            "Condition" = "8:"
+                            "AlwaysCreate" = "11:FALSE"
+                            "DeleteAtUninstall" = "11:FALSE"
+                            "Transitive" = "11:FALSE"
+                                "Keys"
+                                {
+                                    "{60EA8692-D2D5-43EB-80DC-7906BF13D6EF}:_FE95864E7BF04DA9B58DEE665777E6F4"
+                                    {
+                                    "Name" = "8:Office"
+                                    "Condition" = "8:"
+                                    "AlwaysCreate" = "11:FALSE"
+                                    "DeleteAtUninstall" = "11:FALSE"
+                                    "Transitive" = "11:FALSE"
+                                        "Keys"
+                                        {
+                                            "{60EA8692-D2D5-43EB-80DC-7906BF13D6EF}:_A37D39E3191643F689C548E7A70DE198"
+                                            {
+                                            "Name" = "8:PowerPoint"
+                                            "Condition" = "8:"
+                                            "AlwaysCreate" = "11:FALSE"
+                                            "DeleteAtUninstall" = "11:FALSE"
+                                            "Transitive" = "11:FALSE"
+                                                "Keys"
+                                                {
+                                                    "{60EA8692-D2D5-43EB-80DC-7906BF13D6EF}:_1D3040D4605649C2A4D83002644CBDC9"
+                                                    {
+                                                    "Name" = "8:Addins"
+                                                    "Condition" = "8:"
+                                                    "AlwaysCreate" = "11:FALSE"
+                                                    "DeleteAtUninstall" = "11:FALSE"
+                                                    "Transitive" = "11:FALSE"
+                                                        "Keys"
+                                                        {
+                                                            "{60EA8692-D2D5-43EB-80DC-7906BF13D6EF}:_10DA9BCD2B814985BA5BB6BAB42FAC59"
+                                                            {
+                                                            "Name" = "8:MultiTextCopyPaste"
+                                                            "Condition" = "8:"
+                                                            "AlwaysCreate" = "11:FALSE"
+                                                            "DeleteAtUninstall" = "11:FALSE"
+                                                            "Transitive" = "11:FALSE"
+                                                                "Keys"
+                                                                {
+                                                                }
+                                                                "Values"
+                                                                {
+                                                                    "{ADCFDA98-8FDD-45E4-90BC-E3D20B029870}:_05758955C8714392A080D7B4B2BD129A"
+                                                                    {
+                                                                    "Name" = "8:FriendlyName"
+                                                                    "Condition" = "8:"
+                                                                    "Transitive" = "11:FALSE"
+                                                                    "ValueTypes" = "3:1"
+                                                                    "Value" = "8:MultiTextCopyPaste"
+                                                                    }
+                                                                    "{ADCFDA98-8FDD-45E4-90BC-E3D20B029870}:_0C197FF616DB4D6596D6240833DD69CC"
+                                                                    {
+                                                                    "Name" = "8:LoadBehavior"
+                                                                    "Condition" = "8:"
+                                                                    "Transitive" = "11:FALSE"
+                                                                    "ValueTypes" = "3:3"
+                                                                    "Value" = "3:3"
+                                                                    }
+                                                                    "{ADCFDA98-8FDD-45E4-90BC-E3D20B029870}:_61023E54CACF49A08CC4223225FB7699"
+                                                                    {
+                                                                    "Name" = "8:Description"
+                                                                    "Condition" = "8:"
+                                                                    "Transitive" = "11:FALSE"
+                                                                    "ValueTypes" = "3:1"
+                                                                    "Value" = "8:MultiTextCopyPaste PowerPoint Add-In"
+                                                                    }
+                                                                }
+                                                            }
+                                                        }
+                                                        "Values"
+                                                        {
+                                                        }
+                                                    }
+                                                }
+                                                "Values"
+                                                {
+                                                }
+                                            }
+                                        }
+                                        "Values"
+                                        {
+                                        }
+                                    }
                                 }
                                 "Values"
                                 {
@@ -967,9 +1061,9 @@
         }
         "ProjectOutput"
         {
-            "{5259A561-127C-4D43-A0A1-72F10C7B3BF8}:_0F93F75B10C44876A3DC2BABC7B16CD5"
+            "{5259A561-127C-4D43-A0A1-72F10C7B3BF8}:_D9EC1A12F7A64C8498BB94ED7A896C30"
             {
-            "SourcePath" = "8:..\\MultiTextCopyPaste\\obj\\Release\\MultiTextCopPaste1.dll"
+            "SourcePath" = "8:..\\MultiTextCopyPaste\\obj\\Release\\MultiTextCopyPaste.dll"
             "TargetName" = "8:"
             "Tag" = "8:"
             "Folder" = "8:_94FAC3052D2F4517AD1734EDCBF0A289"
@@ -981,12 +1075,12 @@
             "System" = "11:FALSE"
             "Permanent" = "11:FALSE"
             "SharedLegacy" = "11:FALSE"
-            "PackageAs" = "3:2"
+            "PackageAs" = "3:1"
             "Register" = "3:1"
             "Exclude" = "11:FALSE"
             "IsDependency" = "11:FALSE"
             "IsolateTo" = "8:"
-            "ProjectOutputGroupRegister" = "3:3"
+            "ProjectOutputGroupRegister" = "3:2"
             "OutputConfiguration" = "8:"
             "OutputGroupCanonicalName" = "8:Built"
             "OutputProjectGuid" = "8:{5AA7E0BF-FF8F-4F26-AFE1-E339240D0076}"
